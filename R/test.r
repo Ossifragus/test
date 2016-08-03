@@ -2,16 +2,17 @@
 #'
 #' This function allows you to print test results.
 #' @param love Do you love cats? Defaults to TRUE.
-#' @keywords cats
+#' @keywords test
 #' @export
 #' @examples
-#' cat_function() 1
+#' test() 1
  
 test <- function(love=TRUE){
     if(love==TRUE){
-        print("Is this changing??1")
+        print("Is this changing??2")
     }
     else {
-        print("I am not a cool person.")
+        set.seed(0)
+        print(rnorm(10))
     }
 }
