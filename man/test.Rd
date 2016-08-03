@@ -15,5 +15,5 @@ This function allows you to print test results.
 \examples{
 cat_function()
 }
-\keyword{cats}
+\keyword{haha}
 
