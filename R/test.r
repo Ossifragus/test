@@ -5,7 +5,7 @@
 #' @keywords cats
 #' @export
 #' @examples
-#' cat_function()
+#' cat_function() 1
  
 test <- function(love=TRUE){
     if(love==TRUE){

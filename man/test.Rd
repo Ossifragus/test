@@ -13,7 +13,7 @@ test(love = TRUE)
 This function allows you to print test results.
 }
 \examples{
-cat_function()
+cat_function() 1
 }
 \keyword{cats}
 
